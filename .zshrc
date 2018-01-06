@@ -68,6 +68,7 @@ plugins=(
   vi-mode
   virtualenvwrapper
   osx
+  pip
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,3 +106,4 @@ alias pip="pip3"
 # Named dir
 alias code="cd ~/Desktop/code"
 
+alias wiki='vim -c VimwikiIndex'

@@ -13,9 +13,9 @@ set showmatch " show matching parenthesis
 
 
 " Turn off backup
-set nobackup
-set nowb
-set noswapfile
+" set nobackup
+" set nowb
+" set noswapfile
 
 " Move between windows
 nnoremap <C-J> <C-W><C-J> "split below
@@ -25,6 +25,7 @@ nnoremap <C-H> <C-W><C-H> "split left
 noremap <leader>h :<C-u>split<CR>
 noremap <leader>v :<C-u>vsplit<CR>
 
+" Vim wiki
 " Split type
 " set splitbelow
 " set splitright
@@ -55,7 +56,10 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'jistr/vim-nerd-tree-tabs'
+Plugin 'lervag/vimtex'
+" Plugin 'xolox/vim-notes'
+" Plugin 'xolox/vim-misc'
+Plugin 'vimwiki/vimwiki'
 call vundle#end()            " required
 
 " Theme
